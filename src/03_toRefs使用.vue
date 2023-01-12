@@ -29,9 +29,9 @@ export default defineComponent({
     // const { name, age } = toRefs(state);
     const { name2, age2 } = useFeature();
     // 定时器
-    // setInterval(() => {
-    //   name2.value += "===";
-    // }, 1000);
+    setInterval(() => {
+      name2.value += "===";
+    }, 1000);
     return {
       state,
       // ...state2,
